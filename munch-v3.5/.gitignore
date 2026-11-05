@@ -1,0 +1,19 @@
+# secrets — never commit
+.env
+.env.*
+!.env.example
+.neon
+
+node_modules/
+dist/
+work/
+
+# Android build output (commit the android/ folder itself, not these)
+android/.gradle/
+android/build/
+android/app/build/
+android/local.properties
+android/app/src/main/assets/public/
+android/capacitor-cordova-android-plugins/
+*.keystore
+*.jks
